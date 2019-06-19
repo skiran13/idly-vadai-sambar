@@ -1,0 +1,48 @@
+.activeTitle {
+  font-size: 45px;
+  text-align: center;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+}
+
+.activeCardsContainer {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.activeHead {
+  background-color: #596069;
+  width: 100%;
+  border-radius: 40px;
+}
+
+.activeSteps {
+  margin-top: 5px;
+}
+
+.activeContainer {
+  margin-bottom: 80px;
+}
+
+.activeCancelImage {
+  width: 50px;
+  margin-top: 45px;
+  float: right;
+  transition: transform 0.2s;
+}
+
+.activeCancelImage:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.stepImage {
+  width: 50px;
+}
+
+.pendingCard {
+  margin-bottom: 80px;
+}

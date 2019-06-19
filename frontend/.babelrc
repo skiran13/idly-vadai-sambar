@@ -1,0 +1,23 @@
+{
+  "presets": ["@babel/preset-react"],
+  "plugins": [
+    [
+      "import",
+      {
+        "libraryName": "antd",
+        "style": true
+      }
+    ]
+    //   [
+    //     "module-resolver",
+    //     {
+    //       "root": ["./"],
+    //       "alias": {
+    //         "dist": "./dist",
+    //         "components": "./src/components",
+    //         "views": "./src/views"
+    //       }
+    //     }
+    //   ]
+  ]
+}

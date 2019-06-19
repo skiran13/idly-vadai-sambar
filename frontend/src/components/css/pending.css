@@ -1,0 +1,82 @@
+.pendingTitle {
+  font-size: 45px;
+  text-align: center;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+}
+
+.pendingContainer {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pendingCardContainer {
+  width: 100%;
+  background-color: #596069;
+  border-radius: 40px;
+  margin-bottom: 40px;
+}
+
+.expandImage {
+  width: 30px;
+  float: right;
+  margin: 40px;
+  margin-top: 57px;
+  -moz-transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.expandImageRotate {
+  -moz-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.expandImage:hover {
+  cursor: pointer;
+}
+
+.cardInfo {
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  color: white !important;
+}
+
+.cardHead {
+  margin: 0;
+  margin-bottom: 15px;
+  font-weight: 700;
+  color: white;
+}
+
+.cardExpand {
+  height: 0px;
+  overflow: hidden;
+  padding-left: 30px;
+  background-color: #93969b;
+}
+
+.cardExpanded {
+  height: auto;
+}
+
+.itemPrice {
+  float: left;
+}
+
+.cardCheckImage {
+  width: 50px;
+  float: right;
+  margin-top: 45px;
+  transition: transform 0.2s;
+}
+
+.cardCheckImage:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}

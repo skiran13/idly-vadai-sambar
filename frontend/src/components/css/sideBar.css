@@ -1,0 +1,61 @@
+.siderImage {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  z-index: 3;
+}
+
+.siderTitle {
+  text-align: center;
+  color: aliceblue;
+  font-size: 35px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  padding: 0 20px;
+}
+
+.siderBubble {
+  width: 300px;
+  background-color: #595f66;
+  border-radius: 40px;
+  text-align: center;
+  height: 60px;
+  margin-top: 20px;
+  font-size: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 60px;
+}
+
+.siderBubble span {
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.backgroundLine {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 95px;
+  background-color: #34383d;
+  z-index: -1;
+}
+
+.orderHistoryBtn:hover {
+  cursor: pointer;
+}
+
+.orderHistoryBtn {
+  background-color: #34383d;
+}
+
+.sidebarLogout div {
+  background-color: #c86161;
+}

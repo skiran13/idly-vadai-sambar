@@ -1,0 +1,26 @@
+.headerActive {
+  -webkit-box-shadow: inset 0 -5px 0 white;
+  -moz-box-shadow: inset 0 -5px 0 white;
+  box-shadow: inset 0 -5px 0 white;
+}
+
+.headerContainer {
+  transition: transform 0.2s;
+  height: 95px;
+}
+
+.headerContainer:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.headerImage {
+  width: 50px;
+  /* display: inline; */
+}
+
+@media only screen and (max-width: 768px) {
+  .headerText {
+    display: none !important;
+  }
+}

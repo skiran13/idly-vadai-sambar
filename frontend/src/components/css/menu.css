@@ -1,0 +1,171 @@
+.menuCard {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #595f66;
+  height: auto;
+  margin-bottom: 50px;
+  padding: 10px 30px;
+  border-radius: 40px;
+}
+
+.menuCard img {
+  width: 30px;
+  height: 30px;
+  float: right;
+  margin-right: 20px;
+  transition: transform 0.2s;
+}
+
+.menuCard img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.menuCard h1 {
+  float: left;
+  margin: 0 !important;
+  height: 50px;
+  line-height: 50px;
+  font-weight: 700;
+  margin-right: 30px;
+  color: white;
+}
+
+.menuCard p {
+  height: 50px;
+  line-height: 50px;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0 !important;
+}
+
+.menuTitle {
+  text-align: center;
+  font-weight: 700;
+  font-size: 45px;
+}
+
+.formContainer {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  margin-top: 30px;
+}
+
+.formInputTitle {
+  color: black;
+  font-size: 25px;
+}
+
+.formInput {
+  border: none;
+  outline: none;
+  width: 100%;
+  margin: 10px 0px;
+  height: 35px;
+  color: black;
+  font-size: 20px;
+  border-bottom: 2px solid black;
+  background-color: #f0f2f5;
+}
+
+.formInput:focus {
+  border: none;
+  outline: none;
+  border-bottom: 2px solid black;
+}
+
+.formInputSmall {
+  width: 40px;
+}
+
+.formInputAfter {
+  font-size: 20px;
+  color: black;
+  padding-left: 10px;
+}
+
+.editMenuTitle {
+  text-align: center;
+  font-weight: 700;
+  font-size: 45px;
+}
+
+.formSaveChanges {
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #4ea04e;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  font-size: 23px;
+  border-radius: 40px;
+}
+
+.formGoBack {
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #c86161;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  font-size: 23px;
+  border-radius: 40px;
+}
+
+.formGoBack:hover,
+.formSaveChanges:hover {
+  cursor: pointer;
+}
+
+.menuTopBarBubble {
+  width: 200px;
+  height: 50px;
+  line-height: 50px;
+  background-color: #34383d;
+  border-radius: 60px;
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 18px;
+  transition: transform 0.2s;
+}
+
+.menuTopBarBubble:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.menuTopBarBubble img {
+  width: 25px;
+  margin-top: -5px;
+  margin-right: 10px;
+}
+
+.menuTopBarSort {
+  font-size: 20px;
+  line-height: 50px;
+  color: black;
+  display: flex;
+  margin-left: 20px;
+  margin-top: 0;
+  font-weight: 600;
+}
+
+.menuTopBarSortImg {
+  width: 25px;
+  margin-left: 20px;
+  transition: transform 0.2s;
+}
+
+.menuTopBarSortImg:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
